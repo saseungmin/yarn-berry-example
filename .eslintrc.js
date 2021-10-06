@@ -1,12 +1,14 @@
 module.exports = {
+  root: true,
   env: {
     browser: true,
     es2021: true,
     jest: true,
   },
   extends: [
-    'plugin:react/recommended',
     'airbnb',
+    'plugin:react/recommended',
+    'plugin:jsx-a11y/recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -19,6 +21,7 @@ module.exports = {
   plugins: [
     'react',
     '@typescript-eslint',
+    'unused-imports',
   ],
   settings: {
     'import/resolver': {
@@ -31,6 +34,12 @@ module.exports = {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
     },
   },
+  ignorePatterns: [
+    'build/',
+    'node_modules/',
+    '.pnp.cjs',
+    '.yarn/',
+  ],
   rules: {
     'import/extensions': [
       'error',
@@ -52,15 +61,17 @@ module.exports = {
         allow: ['warn', 'error'],
       },
     ],
-    'import/no-unresolved': 'error',
+    'import/no-unresolved': 'off',
     'react/react-in-jsx-scope': 'off',
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': ['error'],
+    '@typescript-eslint/no-unused-vars': 'off',
+    'unused-imports/no-unused-imports': 'error',
+    'unused-imports/no-unused-vars': [
+      'warn',
+      {
+        vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_',
+      },
+    ],
   },
-  ignorePatterns: [
-    'build/',
-    'node_modules/',
-    '.pnp.cjs',
-    '.yarn/',
-  ],
 };
