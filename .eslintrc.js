@@ -40,6 +40,17 @@ module.exports = {
     '.pnp.cjs',
     '.yarn/',
   ],
+  overrides: [
+    {
+      extends: [
+        'plugin:cypress/recommended',
+      ],
+      files: [
+        'cypress/**/*.ts',
+      ],
+      rules: {},
+    },
+  ],
   rules: {
     'import/extensions': [
       'error',

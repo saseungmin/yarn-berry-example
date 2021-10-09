@@ -6468,6 +6468,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-cypress@npm:^2.12.1":
+  version: 2.12.1
+  resolution: "eslint-plugin-cypress@npm:2.12.1"
+  dependencies:
+    globals: ^11.12.0
+  peerDependencies:
+    eslint: ">= 3.2.1"
+  checksum: 1f1c36e149304e9a6f58e2292a761abad58274da33b3a48b24ad55ad20cbce3ac7467321f2b6fcb052f9563c89f67004de4766eba2e2bdbcb010a6a0666989cf
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-flowtype@npm:^5.2.0":
   version: 5.10.0
   resolution: "eslint-plugin-flowtype@npm:5.10.0"
@@ -7673,7 +7684,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"globals@npm:^11.1.0":
+"globals@npm:^11.1.0, globals@npm:^11.12.0":
   version: 11.12.0
   resolution: "globals@npm:11.12.0"
   checksum: 67051a45eca3db904aee189dfc7cd53c20c7d881679c93f6146ddd4c9f4ab2268e68a919df740d39c71f4445d2b38ee360fc234428baea1dbdfe68bbcb46979e
@@ -16332,6 +16343,7 @@ typescript@^4.4.3:
     eslint: ^7.32.0
     eslint-config-airbnb: ^18.2.1
     eslint-import-resolver-typescript: ^2.5.0
+    eslint-plugin-cypress: ^2.12.1
     eslint-plugin-import: ^2.24.2
     eslint-plugin-jsx-a11y: ^6.4.1
     eslint-plugin-react: ^7.26.1

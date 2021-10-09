@@ -49,6 +49,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:7.32.0"],
             ["eslint-config-airbnb", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:18.2.1"],
             ["eslint-import-resolver-typescript", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:2.5.0"],
+            ["eslint-plugin-cypress", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:2.12.1"],
             ["eslint-plugin-import", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:2.24.2"],
             ["eslint-plugin-jsx-a11y", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:6.4.1"],
             ["eslint-plugin-react", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:7.26.1"],
@@ -10029,6 +10030,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-module-utils", "npm:2.6.2"],
             ["debug", "virtual:396a3691f7b25accf085fe2fff1f56eb7540eff3f2e928a7572ca1de9b831ff8f22136404f236aaed35d90369918dfc34392844d0f822a310563f34746dfb015#npm:3.2.7"],
             ["pkg-dir", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["eslint-plugin-cypress", [
+        ["npm:2.12.1", {
+          "packageLocation": "./.yarn/cache/eslint-plugin-cypress-npm-2.12.1-6681f582fa-1f1c36e149.zip/node_modules/eslint-plugin-cypress/",
+          "packageDependencies": [
+            ["eslint-plugin-cypress", "npm:2.12.1"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:2.12.1", {
+          "packageLocation": "./.yarn/__virtual__/eslint-plugin-cypress-virtual-3a89a2b768/0/cache/eslint-plugin-cypress-npm-2.12.1-6681f582fa-1f1c36e149.zip/node_modules/eslint-plugin-cypress/",
+          "packageDependencies": [
+            ["eslint-plugin-cypress", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:2.12.1"],
+            ["@types/eslint", null],
+            ["eslint", "npm:7.32.0"],
+            ["globals", "npm:11.12.0"]
+          ],
+          "packagePeers": [
+            "@types/eslint",
+            "eslint"
           ],
           "linkType": "HARD",
         }]
@@ -21211,6 +21235,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:7.32.0"],
             ["eslint-config-airbnb", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:18.2.1"],
             ["eslint-import-resolver-typescript", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:2.5.0"],
+            ["eslint-plugin-cypress", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:2.12.1"],
             ["eslint-plugin-import", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:2.24.2"],
             ["eslint-plugin-jsx-a11y", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:6.4.1"],
             ["eslint-plugin-react", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:7.26.1"],
