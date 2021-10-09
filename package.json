@@ -8,6 +8,8 @@
     "test": "react-scripts test",
     "test:coverage": "yarn test --watchAll=false --coverage",
     "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:e2e": "start-server-and-test start http://localhost:3000 cypress:run",
     "eject": "react-scripts eject"
   },
   "jest": {
@@ -39,6 +41,7 @@
     "@types/testing-library__jest-dom": "^5",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
+    "add": "^2.0.6",
     "cypress": "^8.5.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
@@ -50,8 +53,10 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-unused-imports": "^1.1.5",
     "react-scripts": "^4.0.3",
+    "start-server-and-test": "^1.14.0",
     "typescript": "^4.4.3",
-    "web-vitals": "^2.1.0"
+    "web-vitals": "^2.1.0",
+    "yarn": "^1.22.15"
   },
   "packageManager": "yarn@3.0.2"
 }
