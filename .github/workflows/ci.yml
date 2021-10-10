@@ -17,14 +17,17 @@ jobs:
       - name: Install dependencies
         run: yarn install --immutable --immutable-cache
 
-      - name: Check Unit Test
-        run: yarn test:unit
-
       - name: Check Lint
         run: yarn lint
+
+      - name: Check Unit Test
+        run: yarn test:unit
 
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
           install: false
-          command: yarn test:e2e
+          start: yarn start
+          wait-on: 'http://localhost:3000'
+          browser: chrome
+          headless: true
