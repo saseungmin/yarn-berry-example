@@ -2,6 +2,7 @@
   "name": "yarn-berry-example",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://saseungmin.github.io/yarn-berry-example",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
