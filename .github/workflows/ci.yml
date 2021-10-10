@@ -23,7 +23,7 @@ jobs:
       - name: Check Unit Test
         run: yarn test:coverage
 
-      - name: Cypress run
+      - name: Check e2e Test
         uses: cypress-io/github-action@v2
         with:
           install: false
