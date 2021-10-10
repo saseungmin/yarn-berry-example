@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  continuous-integration:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+
+      - name: Install dependencies
+        run: yarn install --immutable --immutable-cache
+
+      - name: Check Lint
+        run: yarn lint
+
+      - name: Check Unit Test
+        run: yarn test:coverage
+
+      - name: Check e2e Test
+        uses: cypress-io/github-action@v2
+        with:
+          install: false
+          command: yarn test:e2e
