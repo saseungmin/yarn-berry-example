@@ -21,13 +21,11 @@ jobs:
         run: yarn lint
 
       - name: Check Unit Test
-        run: yarn test:unit
+        run: yarn test:coverage
 
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
           install: false
-          start: yarn start
-          wait-on: 'http://localhost:3000'
+          command: yarn test:e2e
           browser: chrome
-          headless: true
