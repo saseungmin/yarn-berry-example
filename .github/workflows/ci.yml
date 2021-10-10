@@ -28,4 +28,3 @@ jobs:
         with:
           install: false
           command: yarn test:e2e
-          browser: chrome
