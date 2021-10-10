@@ -5,8 +5,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "test:coverage": "yarn test --watchAll=false --coverage",
+    "lint": "eslint --ext ts,tsx .",
+    "test:unit": "react-scripts test",
+    "test:coverage": "yarn test:unit --watchAll=false --coverage",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "test:e2e": "start-server-and-test start http://localhost:3000 cypress:run",
