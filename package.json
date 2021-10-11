@@ -11,7 +11,8 @@
     "test:coverage": "yarn test:unit --watchAll=false --coverage",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "test:e2e": "start-server-and-test start http://localhost:3000 cypress:run",
+    "cypress:record": "yarn cypress:run --browser chrome --record",
+    "test:e2e": "start-server-and-test start http://localhost:3000 cypress:record",
     "eject": "react-scripts eject"
   },
   "jest": {
