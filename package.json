@@ -13,7 +13,8 @@
     "cypress:run": "cypress run",
     "cypress:record": "yarn cypress:run --browser chrome --record",
     "test:e2e": "start-server-and-test start http://localhost:3000 cypress:record",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "release": "auto shipit"
   },
   "jest": {
     "coveragePathIgnorePatterns": [
@@ -45,6 +46,7 @@
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
     "add": "^2.0.6",
+    "auto": "^10.32.2",
     "cypress": "^8.5.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
