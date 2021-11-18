@@ -62,6 +62,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@auto-it/git-tag@npm:^10.32.2":
+  version: 10.32.2
+  resolution: "@auto-it/git-tag@npm:10.32.2"
+  dependencies:
+    "@auto-it/core": 10.32.2
+    semver: ^7.0.0
+    tslib: 2.1.0
+  checksum: 0b03de2f9bbfaa31ced5b612feea75b98ce0cebed2e88a17ad367c76144c383b9fa14eb09f6b6dd3fa219f7551f8401f8a738141b265fab48101431ea130833b
+  languageName: node
+  linkType: hard
+
 "@auto-it/npm@npm:10.32.2":
   version: 10.32.2
   resolution: "@auto-it/npm@npm:10.32.2"
@@ -17495,6 +17506,7 @@ typescript@^4.4.3:
   version: 0.0.0-use.local
   resolution: "yarn-berry-example@workspace:."
   dependencies:
+    "@auto-it/git-tag": ^10.32.2
     "@testing-library/jest-dom": ^5.14.1
     "@testing-library/react": ^12.1.2
     "@testing-library/user-event": ^13.2.1
