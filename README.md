@@ -6,3 +6,6 @@
 #### 👉 Yarn berry example using React + TypeScript + Jest + Cypress + Eslint + Github Actions CI/CD + Github Pages
 
 #### 👉 Please refer to the [blog](https://haranglog.tistory.com/28) for an explanation of this repository example.
+
+### 🔒 LICENSE
+This Project is [MIT licensed](https://github.com/saseungmin/yarn-berry-example/blob/main/LICENSE).
