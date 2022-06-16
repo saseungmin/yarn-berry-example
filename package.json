@@ -47,7 +47,7 @@
     "@typescript-eslint/eslint-plugin": "^5.22.0",
     "@typescript-eslint/parser": "^5.22.0",
     "auto": "^10.36.5",
-    "cypress": "^9.6.0",
+    "cypress": "^10.1.0",
     "eslint": "^8.15.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-import-resolver-typescript": "^2.7.1",
