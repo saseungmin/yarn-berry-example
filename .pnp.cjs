@@ -45,7 +45,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:5.22.0"],\
             ["@typescript-eslint/parser", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:5.22.0"],\
             ["auto", "npm:10.36.5"],\
-            ["cypress", "npm:9.6.0"],\
+            ["cypress", "npm:10.1.0"],\
             ["eslint", "npm:8.15.0"],\
             ["eslint-config-airbnb", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:19.0.4"],\
             ["eslint-import-resolver-typescript", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:2.7.1"],\
@@ -10314,10 +10314,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["cypress", [\
-        ["npm:9.6.0", {\
-          "packageLocation": "./.yarn/unplugged/cypress-npm-9.6.0-eb4a1b4722/node_modules/cypress/",\
+        ["npm:10.1.0", {\
+          "packageLocation": "./.yarn/unplugged/cypress-npm-10.1.0-cb38910cfd/node_modules/cypress/",\
           "packageDependencies": [\
-            ["cypress", "npm:9.6.0"],\
+            ["cypress", "npm:10.1.0"],\
             ["@cypress/request", "npm:2.88.10"],\
             ["@cypress/xvfb", "npm:1.2.4"],\
             ["@types/node", "npm:14.17.21"],\
@@ -10335,7 +10335,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["commander", "npm:5.1.0"],\
             ["common-tags", "npm:1.8.0"],\
             ["dayjs", "npm:1.10.7"],\
-            ["debug", "virtual:eb4a1b4722c54435f79ab5f8389176d12544733818c72e28d018524066def7f5c68d9440376ea8d266e1dbabdac96207af514c0e9667cc099d629294a5aa0575#npm:4.3.2"],\
+            ["debug", "virtual:cb38910cfdd10e36f407c110d13c6d81fdfc3cfcc7e0761c1ed0e56408c6baf71018f09cb4d097a7240743a367e19e365ccaf59704aa51a91a216f2459ba472d#npm:4.3.2"],\
             ["enquirer", "npm:2.3.6"],\
             ["eventemitter2", "npm:6.4.5"],\
             ["execa", "npm:4.1.0"],\
@@ -10347,7 +10347,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-ci", "npm:3.0.0"],\
             ["is-installed-globally", "npm:0.4.0"],\
             ["lazy-ass", "npm:1.6.0"],\
-            ["listr2", "virtual:eb4a1b4722c54435f79ab5f8389176d12544733818c72e28d018524066def7f5c68d9440376ea8d266e1dbabdac96207af514c0e9667cc099d629294a5aa0575#npm:3.12.2"],\
+            ["listr2", "virtual:cb38910cfdd10e36f407c110d13c6d81fdfc3cfcc7e0761c1ed0e56408c6baf71018f09cb4d097a7240743a367e19e365ccaf59704aa51a91a216f2459ba472d#npm:3.12.2"],\
             ["lodash", "npm:4.17.21"],\
             ["log-symbols", "npm:4.1.0"],\
             ["minimist", "npm:1.2.6"],\
@@ -10489,10 +10489,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:eb4a1b4722c54435f79ab5f8389176d12544733818c72e28d018524066def7f5c68d9440376ea8d266e1dbabdac96207af514c0e9667cc099d629294a5aa0575#npm:4.3.2", {\
-          "packageLocation": "./.yarn/__virtual__/debug-virtual-2dc3d5fed8/0/cache/debug-npm-4.3.2-f0148b6afe-820ea160e2.zip/node_modules/debug/",\
+        ["virtual:cb38910cfdd10e36f407c110d13c6d81fdfc3cfcc7e0761c1ed0e56408c6baf71018f09cb4d097a7240743a367e19e365ccaf59704aa51a91a216f2459ba472d#npm:4.3.2", {\
+          "packageLocation": "./.yarn/__virtual__/debug-virtual-d65faa21e2/0/cache/debug-npm-4.3.2-f0148b6afe-820ea160e2.zip/node_modules/debug/",\
           "packageDependencies": [\
-            ["debug", "virtual:eb4a1b4722c54435f79ab5f8389176d12544733818c72e28d018524066def7f5c68d9440376ea8d266e1dbabdac96207af514c0e9667cc099d629294a5aa0575#npm:4.3.2"],\
+            ["debug", "virtual:cb38910cfdd10e36f407c110d13c6d81fdfc3cfcc7e0761c1ed0e56408c6baf71018f09cb4d097a7240743a367e19e365ccaf59704aa51a91a216f2459ba472d#npm:4.3.2"],\
             ["@types/supports-color", null],\
             ["ms", "npm:2.1.2"],\
             ["supports-color", "npm:8.1.1"]\
@@ -15581,10 +15581,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:eb4a1b4722c54435f79ab5f8389176d12544733818c72e28d018524066def7f5c68d9440376ea8d266e1dbabdac96207af514c0e9667cc099d629294a5aa0575#npm:3.12.2", {\
-          "packageLocation": "./.yarn/__virtual__/listr2-virtual-f53373d130/0/cache/listr2-npm-3.12.2-934edf8469-92d72b9b6a.zip/node_modules/listr2/",\
+        ["virtual:cb38910cfdd10e36f407c110d13c6d81fdfc3cfcc7e0761c1ed0e56408c6baf71018f09cb4d097a7240743a367e19e365ccaf59704aa51a91a216f2459ba472d#npm:3.12.2", {\
+          "packageLocation": "./.yarn/__virtual__/listr2-virtual-c96c157fcb/0/cache/listr2-npm-3.12.2-934edf8469-92d72b9b6a.zip/node_modules/listr2/",\
           "packageDependencies": [\
-            ["listr2", "virtual:eb4a1b4722c54435f79ab5f8389176d12544733818c72e28d018524066def7f5c68d9440376ea8d266e1dbabdac96207af514c0e9667cc099d629294a5aa0575#npm:3.12.2"],\
+            ["listr2", "virtual:cb38910cfdd10e36f407c110d13c6d81fdfc3cfcc7e0761c1ed0e56408c6baf71018f09cb4d097a7240743a367e19e365ccaf59704aa51a91a216f2459ba472d#npm:3.12.2"],\
             ["@types/enquirer", null],\
             ["cli-truncate", "npm:2.1.0"],\
             ["colorette", "npm:1.4.0"],\
@@ -22688,7 +22688,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:5.22.0"],\
             ["@typescript-eslint/parser", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:5.22.0"],\
             ["auto", "npm:10.36.5"],\
-            ["cypress", "npm:9.6.0"],\
+            ["cypress", "npm:10.1.0"],\
             ["eslint", "npm:8.15.0"],\
             ["eslint-config-airbnb", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:19.0.4"],\
             ["eslint-import-resolver-typescript", "virtual:c48867827c7acea75306cdd277ea766cb5bf15e401417d34a13a535da80b0b9ce51f1bf5b2cf4cb543a50602cfe60667894bcc1de6a555ff035282593e7145d2#npm:2.7.1"],\
