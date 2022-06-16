@@ -26,7 +26,6 @@ jobs:
       - name: Check e2e Test
         uses: cypress-io/github-action@v4
         with:
-          install: false
           command: yarn test:e2e
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
