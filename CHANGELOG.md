@@ -1,3 +1,15 @@
+# v1.1.0 (Thu Jun 16 2022)
+
+#### 🚀 Enhancement
+
+- [Update] Cypress v10으로 마이그레이션하라 [#14](https://github.com/saseungmin/yarn-berry-example/pull/14) ([@saseungmin](https://github.com/saseungmin))
+
+#### Authors: 1
+
+- Harang ([@saseungmin](https://github.com/saseungmin))
+
+---
+
 # v1.0.1 (Sat May 07 2022)
 
 
