@@ -8,5 +8,7 @@
 
 #### 👉 Please refer to the [blog](https://haranglog.tistory.com/28) for an explanation of this repository example.
 
+#### 👉 You can also see [next.js starter template](https://github.com/jennie-harang/nextjs-starter)!!
+
 ### 🔒 LICENSE
 This Project is [MIT licensed](https://github.com/saseungmin/yarn-berry-example/blob/main/LICENSE).
