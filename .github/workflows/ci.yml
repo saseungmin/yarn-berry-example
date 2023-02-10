@@ -15,7 +15,7 @@ jobs:
           node-version: 16.x
 
       - name: Install dependencies
-        run: yarn install --immutable --immutable-cache
+        run: yarn install --immutable
 
       - name: Check Lint
         run: yarn lint

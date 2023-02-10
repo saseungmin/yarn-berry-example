@@ -1,16 +1,28 @@
 module.exports = {
   root: true,
   env: {
+    es6: true,
     browser: true,
-    es2021: true,
     jest: true,
   },
+  ignorePatterns: [
+    'build/',
+    'node_modules/',
+    '.pnp.cjs',
+    '.pnp.loader.cjs',
+    'public/',
+  ],
   extends: [
     'airbnb',
+    'eslint:recommended',
     'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
+    'plugin:react/jsx-runtime',
   ],
-  parser: '@typescript-eslint/parser',
+  plugins: [
+    // set your plugins
+  ],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -18,71 +30,47 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-    '@typescript-eslint',
-    'unused-imports',
-  ],
-  settings: {
-    'import/resolver': {
-      typescript: {
-        project: './tsconfig.json',
-      },
-    },
-    'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
-    'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx'],
-    },
-  },
-  ignorePatterns: [
-    'build/',
-    'node_modules/',
-    '.pnp.cjs',
-    '.yarn/',
-  ],
   overrides: [
     {
+      files: ['*.ts', '*.tsx'],
       extends: [
-        'plugin:cypress/recommended',
+        'airbnb-typescript',
+        'plugin:@typescript-eslint/recommended',
       ],
-      files: [
-        'cypress/**/*.ts',
+      plugins: [
+        '@typescript-eslint',
       ],
-      rules: {},
+      rules: {
+        // set your typescript rules
+      },
+      parser: '@typescript-eslint/parser',
+      parserOptions: {
+        project: ['./tsconfig.json'],
+      },
+    },
+    {
+      files: ['src/hooks/**/**/*.test.ts?(x)'],
+      rules: {
+        'react-hooks/rules-of-hooks': 'off',
+      },
+    },
+    {
+      files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
+      extends: ['plugin:testing-library/react', 'plugin:jest/recommended'],
+      rules: {
+        // set your test eslint rules
+      },
+    },
+    {
+      extends: ['plugin:cypress/recommended'],
+      files: ['cypress/**/*.ts'],
+      parser: '@typescript-eslint/parser',
+      parserOptions: {
+        project: ['./cypress/tsconfig.json'],
+      },
     },
   ],
   rules: {
-    'import/extensions': [
-      'error',
-      'ignorePackages',
-      {
-        js: 'never',
-        jsx: 'never',
-        ts: 'never',
-        tsx: 'never',
-      },
-    ],
-    'react/jsx-filename-extension': [
-      'warn',
-      { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
-    ],
-    'no-console': [
-      'warn',
-      {
-        allow: ['warn', 'error'],
-      },
-    ],
-    'import/no-unresolved': 'off',
-    'react/react-in-jsx-scope': 'off',
-    'no-use-before-define': 'off',
-    '@typescript-eslint/no-use-before-define': ['error'],
-    '@typescript-eslint/no-unused-vars': 'off',
-    'unused-imports/no-unused-imports': 'error',
-    'unused-imports/no-unused-vars': [
-      'warn',
-      {
-        vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_',
-      },
-    ],
+    // set your rules
   },
 };
