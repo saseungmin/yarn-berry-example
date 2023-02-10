@@ -1,3 +1,15 @@
+# v2.0.0 (Sat Feb 11 2023)
+
+#### 💥 Breaking Change
+
+- chore: eslint 룰과 jest 세팅을 변경하라 [#16](https://github.com/saseungmin/yarn-berry-example/pull/16) ([@saseungmin](https://github.com/saseungmin))
+
+#### Authors: 1
+
+- Harang ([@saseungmin](https://github.com/saseungmin))
+
+---
+
 # v1.2.1 (Thu Dec 15 2022)
 
 
