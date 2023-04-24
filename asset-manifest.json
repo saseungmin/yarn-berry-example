@@ -1,16 +1,14 @@
 {
   "files": {
     "main.css": "/yarn-berry-example/static/css/main.1ef3a49a.css",
-    "main.js": "/yarn-berry-example/static/js/main.8928e420.js",
-    "static/js/746.3fb42188.chunk.js": "/yarn-berry-example/static/js/746.3fb42188.chunk.js",
+    "main.js": "/yarn-berry-example/static/js/main.d568afc2.js",
     "static/media/logo.svg": "/yarn-berry-example/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/yarn-berry-example/index.html",
     "main.1ef3a49a.css.map": "/yarn-berry-example/static/css/main.1ef3a49a.css.map",
-    "main.8928e420.js.map": "/yarn-berry-example/static/js/main.8928e420.js.map",
-    "746.3fb42188.chunk.js.map": "/yarn-berry-example/static/js/746.3fb42188.chunk.js.map"
+    "main.d568afc2.js.map": "/yarn-berry-example/static/js/main.d568afc2.js.map"
   },
   "entrypoints": [
     "static/css/main.1ef3a49a.css",
-    "static/js/main.8928e420.js"
+    "static/js/main.d568afc2.js"
   ]
 }
