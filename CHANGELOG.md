@@ -1,3 +1,16 @@
+# v2.1.0 (Mon Apr 24 2023)
+
+#### 🚀 Enhancement
+
+- chore(dependency): update yarn version [#17](https://github.com/saseungmin/yarn-berry-example/pull/17) (harang@bemyfriends.com [@saseungmin](https://github.com/saseungmin))
+
+#### Authors: 2
+
+- Harang ([@saseungmin](https://github.com/saseungmin))
+- harang1 (harang@bemyfriends.com)
+
+---
+
 # v2.0.0 (Sat Feb 11 2023)
 
 #### 💥 Breaking Change
