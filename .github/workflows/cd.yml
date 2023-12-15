@@ -9,10 +9,10 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
-      - name: Use Node.js 16.x
+      - name: Use Node.js 18.17.1
         uses: actions/setup-node@v2
         with:
-          node-version: 16.x
+          node-version: 18.17.1
 
       - name: Install and Build 🔧
         run: |
