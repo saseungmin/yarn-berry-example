@@ -20,6 +20,6 @@
     "jsx": "react-jsx",
     "baseUrl": "."
   },
-  "include": ["src",  "./jest.setup.ts"],
+  "include": ["src"],
   "exclude": ["**/*.cy.ts"]
 }
